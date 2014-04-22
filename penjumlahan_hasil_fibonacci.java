@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Asisten
  */
-public class JavaApplication1 {d
+public class JavaApplication1 {
 
     /**
      * @param args the command line arguments
@@ -19,13 +19,14 @@ public class JavaApplication1 {d
         Scanner scan=new Scanner(System.in);
         int data=scan.nextInt();
         
-        int a=0, b=1;
+        int a=0, b=1, y=0;
         System.out.println("Hasilnya: ");
         for (int i=0; i<data;i++){
             System.out.println(a+" ");
+            y=y+a;
             a=a+b;
             b=a-b;
-            
+            System.out.println("Output" y);
         }
         
     }
