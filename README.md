@@ -1,4 +1,0 @@
-ProgramFibonacci
-================
-
-untuk menghitung fibonacci
